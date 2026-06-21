@@ -1,0 +1,50 @@
+body {
+  background-image: url("https://images.pexels.com/photos/35623662/pexels-photo-35623662.jpeg");
+  background-color: #eaf771;
+  font-family: Chalkduster, fantasy;
+}
+
+.container {
+  margin-top: 50px;
+  padding: 20px;
+  background-image: linear-gradient(to bottom, rgb(255, 240, 181), rgb(255, 222, 88));
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  color: #333;
+  font-weight: bold;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+#movie-list {
+  margin-top: 20px;
+}
+
+.collection-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.collection-item .movie-title {
+  font-weight: 500;
+}
+
+.collection-item .remove-btn {
+  color: white;
+  background-color: #af0404;
+  cursor: pointer;
+}
+
+#add-movie-btn {
+  background-color: #00796b;
+}
+
+#add-movie-btn:hover {
+  background-color: #004d40;
+}
