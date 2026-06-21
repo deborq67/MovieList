@@ -15,5 +15,5 @@ This application is a simple and effective way of keeping track of the movies yo
 
 1. Download the repository as a ZIP and extract that folder.
 
-2. Open `index.html` on a browser. That's it!
+2. Find `index.html` in the folder and open it on a browser. That's it!
 
