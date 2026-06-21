@@ -56,3 +56,11 @@ input {
 #add-movie-btn:hover {
   background-color: #004d40;
 }
+
+#sort-movie-btn {
+  background-color: #89a09e;
+}
+
+#sort-movie-btn:hover {
+  background-color: #515958;
+}
