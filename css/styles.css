@@ -13,7 +13,7 @@ body {
 }
 
 h3 {
-  color: #333;
+  color: #000000;
   font-weight: bold;
 }
 
@@ -23,12 +23,16 @@ input {
 
 #movie-list {
   margin-top: 20px;
+  border: none;
 }
 
-.collection-item {
+.collection .collection-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #fff7c4;
+  margin-bottom: 20px;
+  border: none;
 }
 
 .collection-item .movie-title {
@@ -39,6 +43,10 @@ input {
   color: white;
   background-color: #af0404;
   cursor: pointer;
+}
+
+.remove-btn:hover {
+  background-color: #320101;
 }
 
 #add-movie-btn {

@@ -2,10 +2,11 @@
 
 let movieList = [];
 
+
+
 function addMovie() {
     const movieInput = document.getElementById("movie-name");
     const movie = movieInput.value.trim();
-
     if(movie !== "") {
         movieList.push(movie);
         renderMovieList();
@@ -24,9 +25,20 @@ function renderMovieList() {
         i +
         ')">Remove Movie</button></li>';   
     }
+    localStorage.setItem('movies', JSON.stringify(movieList));
 }
 
 function deleteMovie(index) {
     movieList.splice(index, 1);
     renderMovieList();
 }
+
+if(localStorage.getItem('movies') == null){
+    movieList =[];
+}else{
+    movieList = JSON.parse(localStorage.getItem('movies'));
+    renderMovieList();
+}
+
+
+
