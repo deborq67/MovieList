@@ -1,4 +1,4 @@
-# MovieList
+# Movie Watchlist
 A simple interface to add movie titles.
 
 ![MovieList.png](https://i.ibb.co/pvmKx93s/Movie-List.png)
